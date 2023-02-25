@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
+  "private": true,
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -12,10 +13,6 @@
     "lint": "eslint --ext .ts,.tsx ."
   },
   "keywords": [],
-  "author": {
-    "name": "YuzuRyo61",
-    "email": "yuzuryo61@yuzulia.work"
-  },
   "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",
